@@ -1,0 +1,17 @@
+n1, n2 = 0, 1
+n = int(input("Enter the number of terms - "))
+if n<=0:
+    print ("Enter a Valid Number")
+elif n==1:
+    print (n1)
+elif n==2:
+    print (n1)
+    print (n2)
+else:
+    print (n1)
+    print (n2)
+    for i in range (3, n+1):
+        n3 = n1+n2
+        print (n3)
+        n1=n2
+        n2=n3
